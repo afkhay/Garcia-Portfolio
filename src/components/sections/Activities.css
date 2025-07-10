@@ -1,0 +1,106 @@
+.activities-section {
+  padding: 0 30px;
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: 'Manjari';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #a490aa;
+  scroll-margin-top: 120px;
+  padding-bottom: 100px;
+}
+
+.activities-title {
+  font-family: 'Cal Sans';
+  font-weight: 500;
+  font-size: 25px;
+  color: #f5dfff;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.activity-card {
+  display: flex;
+  background-color: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  gap: 35px;
+  transition: background-color 0.3s;
+}
+
+.activity-card:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.activity-image img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-title {
+  font-size: 17px;
+  color: #f5dfff;
+  margin: 0 0 8px;
+}
+
+.activity-org {
+  font-size: 15px;
+  color: #a490aa;
+  margin: 0 0 15px;
+}
+
+.activity-desc {
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 80px 15px 0;
+}
+
+.activity-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.activity-tag {
+  background-color: transparent;
+  border: 1px solid #a490aa;
+  color: #a490aa;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+}
