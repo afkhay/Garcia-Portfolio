@@ -22,7 +22,7 @@
 .activity-list {
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 30px;
 }
 
 .activity-card {
@@ -30,33 +30,36 @@
   background-color: transparent;
   border-radius: 15px;
   cursor: pointer;
-  gap: 35px;
-  transition: background-color 0.3s;
-}
-
-.activity-card:hover {
-  background-color: rgba(255, 255, 255, 0.02);
-}
-
-.activity-image img {
-  width: 110px;
-  height: 110px;
-  border-radius: 10px;
-  object-fit: cover;
+  margin-top: 15px;
+  gap: 30px;
 }
 
 .activity-content {
   flex: 1;
 }
 
+.activity-image img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  border: 0.5px solid #a490aa;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-image img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(245, 223, 255, 0.2);
+}
+
 .activity-title {
-  font-size: 17px;
+  font-size: 16px;
   color: #f5dfff;
   margin: 0 0 8px;
 }
 
 .activity-org {
-  font-size: 15px;
+  font-size: 14px;
   color: #a490aa;
   margin: 0 0 15px;
 }
@@ -64,43 +67,47 @@
 .activity-desc {
   font-size: 13px;
   line-height: 1.5;
-  text-align: justify;
   margin: 0 80px 15px 0;
 }
 
 .activity-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 13px;
 }
 
 .activity-tag {
   background-color: transparent;
   border: 1px solid #a490aa;
   color: #a490aa;
-  font-size: 10px;
-  padding: 5px 10px;
+  font-size: 11px;
+  padding: 8px 13px 5px 15px;
   border-radius: 15px;
   letter-spacing: 1px;
 }
 
-/* Modal */
 .modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(15, 15, 15, 0.8);
+  background-color: rgba(20, 16, 20, 0.822);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 999;
 }
 
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal-content img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 10px;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 15px;
   box-shadow: 0 0 20px #000;
 }
