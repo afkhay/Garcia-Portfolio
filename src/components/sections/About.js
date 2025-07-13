@@ -31,7 +31,7 @@ const AboutSection = () => {
   const interestsData = [
     {
       title: "Listening to Music",
-      link: "https://www.youtube.com/watch?v=4RFZpNzNjJ8&list=RDC46zC8lebXY&index=8",
+      link: "https://open.spotify.com/track/3r73OmpBtQAwMgawxOmlg0",
       buttonText: "Listen to my favorite song."
     },
     {

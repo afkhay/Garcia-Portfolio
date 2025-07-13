@@ -38,14 +38,14 @@ const ActivitiesSection = () => {
       {
         title: "CEA Days: Mr. and Ms. CEA",
         org: "T.I.P. Manila • College of Engineering and Architecture (CEA) • April 2024",
-        desc: "Although the main event was cancelled, I took part in rehearsals, photoshoots, and promotions, proudly representing the Computer Engineering Department and supporting unity within the college.",
+        desc: "I took part in rehearsals, photoshoots, and promotions, proudly representing the Computer Engineering Department and supporting unity within the college, though the main event was cancelled. ",
         image: "/activitiesphotos/compe5.png",
         highlights: ["CpE Representative"]
       },
       {
         title: "Student Life Fair: RSO Competitions",
         org: "T.I.P. Manila • League of Recognized Student Organizations (LORSO) • October 2024",
-        desc: "As the newly appointed Computer Engineering Student Society (CoESS) secretary, I contributed to the creative process of booth design, bulletin board design, movie poster, and advocacy video making.",
+        desc: "I contributed to the creative process of booth design, bulletin board design, movie poster, and advocacy video making, as the newly appointed Computer Engineering Student Society (CoESS) secretary.",
         image: "/activitiesphotos/compe6.png",
         highlights: ["CoESS Representative"]
       },
@@ -78,16 +78,114 @@ const ActivitiesSection = () => {
         highlights: ["T.I.P. Manila Representative","2nd Placer"]
       }
     ],
+
     Events: [
       {
+        title: "CEA Days: Mr. and Ms. CEA",
+        org: "T.I.P. Manila • College of Engineering and Architecture (CEA) • January 2023",
+        desc: "I participated as the makeup artist for our department’s male representative. I helped prepare his overall look during and in-between competition sets to ensure he was stage-ready for the event.",
+        image: "/eventsphotos/event2.png",
+        highlights: ["Event Participant", "Makeup Artist"]
+      },
+      {
         title: "Computer Hardware and Software Troubleshooting Workshop",
-        org: "Computer Engineering Department Student Council • May 2023",
-        desc: "Insert",
-        image: "/activitiesphotos/compe3.png",
-        highlights: ["Participant", "3rd Placer"]
+        org: "T.I.P. Manila • CpE Department Student Council (CpE-DSC) • May 2023",
+        desc: "I helped facilitate a hands-on workshop for fellow first-year students, guiding them through disassembly, reassembly, and basic troubleshooting of PCs. I provided real-time support to ensure effective understanding.",
+        image: "/eventsphotos/event1.png",
+        highlights: ["Event Organizer","DSC Mentee"]
+      },
+      {
+        title: "Finally Clean: Empowering Children for Enhanced W.A.S.H. Education",
+        org: "G17 Philippines • March 2024",
+        desc: "I volunteered to assist in delivering hygiene and sanitation education to children in Bagumbong, North Caloocan through interactive sessions and hands-on activities, supporting the SDG6 Ambassador’s outreach.",
+        image: "/eventsphotos/event3.png",
+        highlights: ["Outreach Volunteer"]
+      },
+      {
+        title: "CoESS Cybersecurity Awareness Seminar",
+        org: "T.I.P. Manila • Computer Engineering Student Society (CoESS) • October 2024",
+        desc: "I led the technical preparations and coordinated with guest speakers for a cybersecurity seminar aimed at promoting digital safety. I helped ensure the event’s success by managing logistics and supporting engaging discussions.",
+        image: "/eventsphotos/event4.png",
+        highlights: ["Event Organizer","CoESS Secretary"]
+      },
+      {
+        title: "CoESS Sports Fest",
+        org: "T.I.P. Manila • Computer Engineering Student Society (CoESS) • October 2024",
+        desc: "I oversaw the flow of a two-day SportsFest, handling game result validation and announcing winners during the awarding. The event fostered CpE students' camaraderie while promoting a healthy academic-life balance.",
+        image: "/eventsphotos/event5.png",
+        highlights: ["Event Organizer","CoESS Secretary"]
+      },
+      {
+        title: "Dok Almiron Medical Mission: Free Evaluation Program",
+        org: "Dok Francis Almiron, Brgy. 521, Brgy. 522, and Brgy. 523 • September 2024",
+        desc: "I assisted physical therapy doctors, helping manage patient flow and support basic tasks. I also encouraged fellow students to participate and gain firsthand experience in community service and collaboration.",
+        image: "/eventsphotos/event6.png",
+        highlights: ["Outreach Volunteer"]
+      },
+      {
+        title: "CoESS Elective Seminar",
+        org: "T.I.P. Manila • Computer Engineering Student Society (CoESS) • November 2024",
+        desc: "I helped organize a seminar that introduced second-year students to the four major CpE elective track. I managed event flow, handled documentation, and supported preparations to ensure a smooth and informative experience.",
+        image: "/eventsphotos/event7.png",
+        highlights: ["Event Organizer", "CoESS Secretary"]
+      },
+      {
+        title: "CoESS x CpE General Assembly: Tech Glam",
+        org: "T.I.P. Manila • CoESS and CpE-DSC • April 2025",
+        desc: "I helped unify CpE students through updates, activities, and recognition segments. I managed key parts of the program, including the Dress to Impress competition, while handling paperwork and live documentation.",
+        image: "/eventsphotos/event8.png",
+        highlights: ["Event Organizer","CoESS Secretary"]
+      },
+      {
+        title: "Globe Digital Thumbprint Program: Onboarding Seminar",
+        org: "T.I.P. Manila • Office of Student Affairs (OSA) • May 2025",
+        desc: "I attended as a selected future ambassador, representing T.I.P. in partnership with Globe Telecom. The seminar introduced my role in promoting digital responsibility through workshops, advocacy, and mentorship opportunities.",
+        image: "/eventsphotos/event9.png",
+        highlights: ["Event Invitee","DTP Ambassador"]
+      },
+      {
+        title: "GAWAD T.I.P.",
+        org: "T.I.P. Manila • Office of Student Affairs (OSA) • May 2025",
+        desc: "I attended to receive a Service Award for Campus Stewardship, recognizing my contributions to student leadership and campus involvement. It was a memorable event that celebrated excellence and inspired continued service.",
+        image: "/eventsphotos/event10.png",
+        highlights: ["Event Awardee"]
+      },
+      {
+        title: "Brigada Eskwela: Sama-sama Para sa Bayang Bumabasa",
+        org: "T.I.P. Manila • Community Engagement Services Office (CESO) • June 2025",
+        desc: "I volunteered to clean and troubleshoot PCs at V. Mapa High School as part of a community outreach effort. Beyond fulfilling course requirements, I contributed meaningfully to a school in need of technical support.",
+        image: "/eventsphotos/event11.png",
+        highlights: ["Outreach Volunteer"]
+      },
+      {
+        title: "Transforming Future: Computer Vision Generative AI in CpE",
+        org: "T.I.P. Manila • Computer Engineering Department • June 2025",
+        desc: "I attended a seminar on generative AI and computer vision that deepened my understanding of AI concepts and practical applications. It strengthened my confidence in using these tools for future projects.",
+        image: "/eventsphotos/event12.png",
+        highlights: ["Seminar Participant"]
+      },
+      {
+        title: "Globe Student Fest: Go For It",
+        org: "Globe • June 2025",
+        desc: "I joined the event to learn from student-focused talks and inspiring speakers. As an ambassador, I also helped promote the event and encourage fellow students to participate.",
+        image: "/eventsphotos/event15.png",
+        highlights: ["Event Participant", "DTP Ambassador"]
+      },
+      {
+        title: "Into the Cloud: The Future of Computing",
+        org: "T.I.P. Manila • Computer Engineering Department • June 2025",
+        desc: "I attended a seminar on cloud computing that broadened my understanding of its real-world applications and future potential. It left me inspired and motivated to explore a professional path in cloud technology.",
+        image: "/eventsphotos/event13.png",
+        highlights: ["Seminar Participant"]
+      },
+      {
+        title: "CodeBuild Pocket Edition: Discover the Building Blocks of MobileDev",
+        org: "T.I.P. Manila • Computer Engineering Department • July 2025",
+        desc: "I led the organization of a seminar that introduced fellow Computer Engineering students to mobile development. The event combined learning with activities to make the experience both informative and enjoyable.",
+        image: "/eventsphotos/event14.png",
+        highlights: ["Event Organizer"]
       }
     ],
-    Projects: [],
   };
 
   return (
@@ -95,7 +193,7 @@ const ActivitiesSection = () => {
       <h2 className="activities-title">Activities</h2>
 
       <div className="skills-tab">
-        {["Competitions", "Events", "Projects"].map((tab) => (
+        {["Competitions", "Events"].map((tab) => (
           <button
             key={tab}
             className={`skills-tab-button ${activeTab === tab ? "active" : ""}`}
