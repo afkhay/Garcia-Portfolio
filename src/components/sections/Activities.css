@@ -22,16 +22,30 @@
 .activity-list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
+}
+
+@keyframes fadeInSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .activity-card {
   display: flex;
   background-color: transparent;
   border-radius: 15px;
-  cursor: pointer;
+  cursor: pointer;  
   margin-top: 15px;
   gap: 30px;
+  opacity: 0;
+  animation: fadeInSlideLeft 0.5s ease forwards;
+
 }
 
 .activity-content {
@@ -60,7 +74,7 @@
 
 .activity-org {
   font-size: 14px;
-  color: #a490aa;
+  color: #f5dfff;
   margin: 0 0 15px;
 }
 
@@ -73,7 +87,7 @@
 .activity-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 13px;
+  gap: 12px;
 }
 
 .activity-tag {
@@ -81,7 +95,7 @@
   border: 1px solid #a490aa;
   color: #a490aa;
   font-size: 11px;
-  padding: 8px 13px 5px 15px;
+  padding: 8px 10px 5px 11px;
   border-radius: 15px;
   letter-spacing: 1px;
 }

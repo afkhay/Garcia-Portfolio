@@ -14,7 +14,7 @@ const ExperiencesSection = () => {
       },
       {
         role: "Mentee",
-        org: "Computer Engineering Department Student Council • 2022 - 2023",
+        org: "Computer Engineering Department Student Council (CpE-DSC) • 2022 - 2023",
         desc: "Underwent mentorship to become a secretary by taking on real organizational tasks such as writing meeting minutes, documentations, and drafting captions for social media posts.",
       },
       {
@@ -24,7 +24,7 @@ const ExperiencesSection = () => {
       },
       {
         role: "Secretary",
-        org: "Computer Engineering Student Society • 2024 - PRESENT",
+        org: "Computer Engineering Student Society (CoESS) • 2024 - PRESENT",
         desc: "Responsible for preparing official documents, managing extended communications, and ensuring smooth coordination for events that support the computer engineering student body.",
       },
     ],
